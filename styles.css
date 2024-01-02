@@ -1,0 +1,34 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#logo{
+    position: relative;
+    top: 13vh;
+    height: 65vh;
+}
+#launch{
+    color: #CC9900;
+    font-family: 'Diphylleia', serif;
+    position: relative;
+    top: 120px;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 716px) {
+    body{
+        background-image: url(bg\ -\ phone.png);
+    }
+    #logo{
+        height: 45vh;
+        position: relative;
+        top: 20vh;
+    }
+    #launch{
+        position: relative;
+        top: 30vh;
+        text-align: center;
+        font-size: 25px;
+    }
+  }
